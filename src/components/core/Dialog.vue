@@ -10,14 +10,14 @@
 export default {
   model: {
     prop: 'dialog',
-    event: 'toogle',
+    event: 'close',
   },
   props: {
     dialog: Boolean,
   },
   methods: {
     close() {
-      this.$emit('toogle', !this.dialog);
+      this.$emit('close', !this.dialog);
     },
   },
 };
