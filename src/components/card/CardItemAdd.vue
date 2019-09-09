@@ -56,8 +56,8 @@ export default {
       });
       this.cardName = '';
       this.cardNumber = '';
-      this.month = null;
-      this.year = null;
+      this.selectdMonth = null;
+      this.selectedYear = null;
       this.securityCode = '';
     },
   },
