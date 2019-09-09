@@ -1,0 +1,73 @@
+.d-inline-block {
+  display: inline-block;
+}
+
+.box {
+  background: #fff;
+  border-radius: 2px;
+  display: block;
+  margin: 1rem;
+  padding: 15px;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.title {
+  color: #43689e;
+}
+
+.divider {
+  display: block;
+  flex: 1 1 0px;
+  max-width: 100%;
+  height: 0px;
+  max-height: 0px;
+  border: solid;
+  border-width: thin 0 0 0;
+  transition: inherit;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.text-green {
+  color: #52d03e;
+}
+/* TODO: generate with less */
+.mr-4 {
+  margin-right: 4px;
+}
+
+.ml-4 {
+  margin-left: 4px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+
+.dialog-btns {
+  display: flex;
+  justify-content: space-around;
+}
+.dialog-btn {
+  width: 100px;
+  height: 30px;
+}

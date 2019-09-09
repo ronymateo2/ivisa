@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <MyCards />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import MyCards from './components/MyCards.vue';
 
 export default {
-  name: "app",
+  name: 'app',
   components: {
-    HelloWorld
-  }
+    MyCards,
+  },
 };
 </script>
 
 <style>
+@import url('assets/design/helpers.css');
+
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  margin: auto;
   margin-top: 60px;
+  width: 800px;
+  font-size: 12px;
 }
 </style>
