@@ -5,10 +5,8 @@
         <CheckBox :value="selected" class="selected-card"></CheckBox>
         <Amex></Amex>
         <div class="d-inline-block ml-4">
-          <span>{{ cardName }}</span>
-          <br />
-          <span>{{ exDate }}</span>
-          <ALink v-if="selected" class="ml-4">Default card</ALink>
+          <div>{{ cardName }}</div>
+          <div>{{ exDate }} <ALink v-if="selected" class="ml-4">Default card</ALink></div>
         </div>
       </div>
       <div class="card-item-rigth">
