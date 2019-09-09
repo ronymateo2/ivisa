@@ -2,6 +2,7 @@
 
 Considerations:
 
+- It just works for desktop.
 - I not using any card validation for the purpuse of the challenge I'm only considering an AMEX card.
 - I not using LESS, I planned to used it for generating some helpers and storing colores. [ PENDING ]
 
